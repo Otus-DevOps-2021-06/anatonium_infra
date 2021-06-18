@@ -4,3 +4,8 @@
 
 bastion_IP = 178.154.224.144
 someinternalhost_IP = 10.128.0.34
+
+### Testapp ruby
+
+testapp_IP = 178.154.231.118
+testapp_port = 9292
