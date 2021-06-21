@@ -1,8 +1,8 @@
-cloud_id = "" # your cloud id
-folder_id = "" # catalogue in cloud
-zone = "" # cloud access zone
-image_id = "" # id of image build from
-public_key = "" # file path to public ssh key
-private_key = "" # file path to private ssh key
-subnet_id = "" # id of cloud destination subnet
-service_account_key_file = "" # path to service account json
+cloud_id = "one" # your cloud id
+folder_id = "another" # catalogue in cloud
+zone = "variable" # cloud access zone
+image_id = "needs" # id of image build from
+public_key = "to" # file path to public ssh key
+private_key = "surpass" # file path to private ssh key
+subnet_id = "these" # id of cloud destination subnet
+service_account_key_file = "tests" # path to service account json
