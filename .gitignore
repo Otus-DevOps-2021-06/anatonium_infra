@@ -6,4 +6,3 @@
 *.tfvars
 .terraform/
 /terraform/key.json
-/terraform/variables.tf
