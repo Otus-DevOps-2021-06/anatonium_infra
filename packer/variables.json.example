@@ -1,0 +1,6 @@
+{
+    "folder_id": "some_folder_id",
+    "service_acc_kf": "files/definetly_not_real_key.json",
+    "subnet_id": "some_subnet_id"
+    "source_image_id": "not_real_img_id"
+}
