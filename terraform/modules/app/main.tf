@@ -11,7 +11,7 @@ resource "yandex_compute_instance" "app" {
 
   boot_disk {
     initialize_params {
-      image_id = var.app_disk_image
+      image_id = data.yandex_compute_image.disk_app.image_id
     }
   }
 
@@ -23,4 +23,8 @@ resource "yandex_compute_instance" "app" {
   metadata = {
   ssh-keys = "ubuntu:${file(var.public_key_path)}"
   }
+}
+
+data "yandex_compute_image" "disk_app" {
+  name = var.app_disk_image
 }
