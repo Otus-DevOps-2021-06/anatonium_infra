@@ -6,3 +6,4 @@
 *.tfvars
 .terraform/
 /terraform/key.json
+*.retry
