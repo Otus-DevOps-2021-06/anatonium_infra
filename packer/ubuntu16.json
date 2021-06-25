@@ -16,7 +16,7 @@
             "ssh_username": "ubuntu",
             "platform_id": "standard-v1",
             "use_ipv4_nat": "true",
-            "zone": "ru_central1-a",
+            "zone": "ru-central1-a",
             "subnet_id": "{{ user `subnet_id` }}",
             "source_image_id": "{{ user `source_image_id` }}"
         }
